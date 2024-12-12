@@ -1,0 +1,14 @@
+[project]
+name = "streamlit-invoice-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.3.11",
+    "langchain-core>=0.3.24",
+    "langchain-ollama>=0.2.1",
+    "langchain>=0.3.11",
+    "pymupdf>=1.25.1",
+    "streamlit>=1.41.0",
+]
